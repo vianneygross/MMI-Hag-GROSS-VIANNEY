@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1">
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/other.js"></script>
+		<script type="text/javascript" src="js/jssor.slider-20.mini.js"></script>
+		<title>RETRO FEVER</title>
+	</head>
+	
+	<body>
+	
+	<header>
+		<!-- Partie panier top -->
+		<div class="panier">
+			<nav>
+				<ul>
+					<li><a href="moncompte.html"><i class="fa fa-user"></i> MON COMPTE</a></li>
+					<li><a href="monpanier.html"><i class="fa fa-shopping-cart"></i> MON PANIER</a></li>
+				</ul>	
+			</nav>
+		</div>
+		<!-- Partie connexion top -->
+		<div class="connexion">
+			<nav>
+				<ul>
+					<li><a href="#">BONJOUR VIANNEY GROSS</a></li>
+					
+				</ul>	
+			</nav>
+		</div>	
+		<!-- Le logo et la partie bannière -->
+		<div class="banniere">
+			<img class="animated pulse" src="img/logo.png" alt="logo retro fever">
+		</div>
+		<!-- Barre de recherche -->
+		<div class="search">
+			<input placeholder="Rechercher un jeux, une console, un accessoire..." class="textesearch" type="search"  name="recherche"/>
+			<input class="searchsearch" type="submit" value="Rechercher">
+		</div>
+		<!-- Navigation -->
+		<nav class="mainnav">
+			<ul> 
+				<li><a href="index.html">ACCUEIL</a></li>
+				<li><a href="jeux.html">JEUX</a></li>
+				<li><a class="active" href="vendre.html">VENDRE</a></li>
+				<li><a href="enconstruction.html">CONSOLES</a></li>
+				<li><a href="enconstruction.html">ACCESSOIRES</a></li>
+				<li><a href="enconstruction.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Partie contenu -->
+	<div class="wrapper">
+			<div class="wrappermain">
+				<div class="vendre">
+					<h2>Vendre mes jeux !</h2>
+					<form>
+						 <p>
+							<label>Nom du produit</label> : <input class="name" type="text"/>
+						</p>
+						
+						<p>
+							<label>Plateforme :</label> 
+							<select>
+							  <option label="Xbox">Xbox</option>
+							  <option label="Gamecube">Gamecube</option>
+							  <option label="Ps1">Ps1</option>
+							  <option label="Ps2">Ps2</option>
+							  <option label="Game boy Color">Game boy Color</option>
+							  <option label="Game boy Advance">Game boy Advance</option>
+							  <option label="Nintendo 64">Nintendo 64</option>
+							  <option label="Mega drive">Mega drive</option>
+							</select>
+						</p>
+								
+						<p>
+							<label>Notice disponible :</label>
+							<input type="radio" name="vehicle" value="Bike" checked> Oui
+							<input type="radio" name="vehicle" value="Car" > Non
+						</p>
+									
+						<p>
+							<label>État global du produit :</label>
+							<select>
+							  <option label="Très Mauvais">Très Mauvais</option>
+							  <option label="Mauvais">Mauvais</option>
+							  <option label="Moyen">Moyen</option>
+							  <option label="Bon">Bon</option>
+							  <option label="Très bon">Très bon</option>
+							  <option label="Neuf">Neuf</option>
+							</select>
+						</p>
+						
+						<p>
+							<label>Mettre en ligne des photos du produit :</label> 
+							<input type="file" name="nom" />
+						</p>
+								
+						<p>
+							<input class="envoyer" type="button" name="envoyer" value="Envoyer" />
+						</p>
+					</form>	
+				</div>		
+			</div>
+			<!-- Partie widgets -->
+			<div class="wrapperwidgets">
+				<div class="widgetun">
+					<h4>La promo du jour !</h4>
+					<img src="img/shrek.jpg" alt="shrek_xbox">
+					<div class="prize">
+						<p class="nomdujeu">Xbox : 007 NightFire</p>
+						<p class="barrer">12 €</p><p class="nouveauprize">6.99 €</p>
+					</div>
+					<div class="voir">
+						<a href="fiche.html">Voir <i class="fa fa-eye"></i></a>
+					</div>
+					<div class="acheter">
+						<a href="monpanier.html">Acheter <i class="fa fa-shopping-cart"></i></a>
+					</div>
+				</div>
+				<div class="widgetdeux">
+					<h4>Pourquoi commander chez nous ?</h4>
+					<p><i class="fa fa-check-square-o"></i> Une qualité certifiée</p>
+					<p><i class="fa fa-gamepad"></i> La plus grande gamme</p>
+					<p><i class="fa fa-truck"></i> Livraison et retour gratuit</p>
+					<p><i class="fa fa-paypal"></i> Paiement 100% sécurisé</p>
+				</div>
+			</div>	
+	</div>
+	<!-- Partie footer -->
+	<footer>
+		<div class="foot1">
+			<h5>NOUS SUIVRE PARTOUT</h5>
+			<div class="social">
+				<a href="#"><img src="img/facebook.png" alt="facebook"></a>		
+				<a href="#"><img src="img/twitter.png" alt="twitter"></a>
+				<a href="#"><img src="img/googleplus.png" alt="googleplus"></a>
+			</div>
+		</div>
+		
+		<div class="foot2">
+			<h5>RETRO FEVER</h5>	
+			<div class="foot21">
+				<ul>
+					<li><a href="#">Qui sommmes nous ?</a></li>
+					<li><a href="#">Nous contacter</a></li>
+				</ul>
+			</div>
+			<div class="foot21">
+				<ul>
+					<li><a href="#">CGV</a></li>
+					<li><a href="#">Mentions légales</a></li>
+				</ul>
+			</div>
+		</div>
+			
+		<div class="foot3">
+			<h5>PAIEMENT SÉCURISÉ</h5>
+			<div class="secure">
+				<a href="#"><img src="img/paiement.png" alt="paiementsecurise"></a>
+			</div>
+		</div>
+		
+	</footer>
+	
+	</body>
+</html>

@@ -1,0 +1,125 @@
+@media only screen and (max-width: 1500px) {
+	.widgetdeux p {
+	line-height:4vw;
+	}
+	.widgetun {
+	height:200px;
+	}
+	.searchsearch {
+	font-size:0.85vw;	
+	}
+	.widgetfoot .widgetun p {
+	line-height:4.5vw;
+	}
+	.fichedeux p {
+	line-height:25px;
+	}
+	.prixfinale p {
+	font-size:2vw;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.wrapper, footer {
+	width:100%;
+	}
+	.widgetdeux p {
+	line-height:3vw;
+	}
+	.widgetdeux {
+	height:200px;
+	}
+	.widgetun {
+	height:180px;
+	}
+	.wrappermain {
+	width:100%;
+	}
+	.widgetun, .widgetdeux {
+	float:left;
+	display:block;
+	width:49%;
+	}
+	.widgetun {
+	margin-right:1%;
+	
+	}
+	.widgetdeux {
+	margin-left:1%;
+	}
+	.wrapperwidgets {
+	width:100%;
+	}
+	.widgetdeux {
+	margin:0;
+	height:180px;
+	}
+	.responsive-btn {
+	display:block;
+	text-align:center;
+	}
+	.banniere img {
+	width:200px;
+	}
+	.mainnav,.search,.connexion,.panier{
+	display:none;
+	}
+	header {
+	width:100%;
+	}
+	.widgetdeux p {
+	line-height:3vw;
+	font-size:18px;
+	}
+	.voir a, .acheter a {
+	font-size:12px;
+	}
+	.widgetun p {
+	font-size:24px;
+	}
+	h4 {
+	font-size:16px;
+	}
+	.top_link {
+	opacity:0;
+	}
+}
+@media only screen and (max-width: 700px) {
+	footer h5 {
+	font-size:12px;
+	}
+	.foot2 ul li a {
+	font-size:12px;
+	}
+	h4 {
+	font-size:14px;
+	}
+	.widgetdeux p {
+	line-height:5vw;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.itemboutique {
+	width:48%;
+	}
+	h4 {
+	font-size:12px;
+	}
+	#jssor_1 {
+	display:none;
+	}
+}
+@media only screen and (max-width: 450px) {
+	footer {
+	display:none;
+	}
+	h4 {
+	line-height:20px;
+	}
+	.widgetdeux p {
+	font-size:16px;
+	}
+	.widgetun p {
+	line-height:30px;
+	}
+}
+
