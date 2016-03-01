@@ -6,7 +6,7 @@ header {
 background-color:#242424;
 }
 .wrapper {
-width:960px;
+width:65%;
 margin:0 auto;
 }
 .header-left {
@@ -63,7 +63,7 @@ color:#414141;
 }
 .slider {
 width:100%;
-height:512px;
+height:620px;
 background-color:#f1eeea;
 clear:both;
 }
@@ -87,7 +87,7 @@ font-weight:bold;
 }
 .slider-prize {
 display:block;
-width:13%;
+width:11%;
 margin-top:15%;
 margin-bottom:2%;
 }
@@ -221,6 +221,28 @@ font-size:0.8em;
 .categories {
 background-color:#242424;
 width:100%;
-height:200px;
+height:220px;
 clear:both;
 }
+.categories-item {
+width:33.333333%;
+display:block;
+float:left;
+padding-left:1%;
+padding-right:1%;
+box-sizing:border-box;
+position:relative;
+margin-top:20px;
+}
+.categories-title {
+position:absolute;
+top:50%;
+padding:10px;
+font-size:1.3em;
+color:white;
+background-color:rgba(0, 0, 0, 0.7); 
+}
+
+
+
+
