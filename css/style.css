@@ -100,7 +100,7 @@ margin-top:1%;
 .slider-smalltitle {
 display:block;
 margin-top:3%;
-font-size:1.3em;
+font-size:1.4em;
 width:95%;
 }
 .slider-btn {
@@ -222,17 +222,18 @@ font-size:0.8em;
 background-color:#242424;
 width:100%;
 height:220px;
-clear:both;
+display:flex;	
+margin:0 auto;
+flex-direction: column;
 }
 .categories-item {
 width:33.333333%;
-display:block;
-float:left;
 padding-left:1%;
 padding-right:1%;
 box-sizing:border-box;
 position:relative;
 margin-top:20px;
+float:left;
 }
 .categories-title {
 position:absolute;
