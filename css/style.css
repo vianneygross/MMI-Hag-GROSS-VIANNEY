@@ -87,7 +87,7 @@ font-weight:bold;
 }
 .slider-prize {
 display:block;
-width:11%;
+width: 63px;
 margin-top:15%;
 margin-bottom:2%;
 }
@@ -405,16 +405,17 @@ margin-bottom: 20px;
 footer {
 background-color:#242424;
 width:100%;
-height:500px;
 padding-top:60px;
 }
 .footer-widgets {
 width:100%;
+height:200px;
 }
 .footer-widgets-item {
 display:block;
 float:left;
 width:30.666666%;
+height:200px;
 }
 .footer-widgets .footer-widgets-item {
 margin-right:2%;
@@ -433,10 +434,96 @@ margin-bottom:30px;
 }
 .footer-widgets-item p {
 color:#a4a4a4;
+margin-top:10px;
+margin-bottom:10px;
 }
 .footer-widgets-item ul li {
 color:#a4a4a4;
 }
-.footer-widgets-item ul li .footer-twitterusername {
+.footer-widgets-item ul li .footer-twitterusername,.footer-credits {
+color:#57c5a0;
+}
+.footer-widgets-item.last img {
+margin:2px;
+margin-top:5px;
+}
+.footer-widgets-item.last img:hover {
+opacity:0.7;
+cursor:pointer;
+}
+.footer-social {
+width:100%;
+border-top:1px solid black;
+margin-top:50px;
+padding-top:50px;
+padding-bottom:100px;
+}
+.footer-social-left {
+float:left;
+position:relative;
+width:25%;
+}
+.footer-social-right {
+float:right;
+}
+.footer-social-newsletter {
+font-size:0.9em;
+line-height:30px;
+width:80%;
+padding:10px;
+background:#2e2e2e;
+color:#9B9B9B;
+border:none;
+outline:none;
+}
+.footer-social-submit {
+background:#7d7d7d url('') no-repeat 20px 17px;
+cursor:pointer;
+line-height:30px;
+position:absolute;
+right:0;
+padding:10px;
+width:18%;
+border:none;
+outline:none;
+}
+.footer-social-right > i {
+line-height:30px;
+font-size:1.5em;
+background-color:#2e2e2e;
+color:#7C7C7C;
+padding:10px;
+width:30px;
+text-align:center;
+cursor:pointer;
+margin-left:2px;
+}
+.footer-social-right > i:hover {
+opacity:0.8;
+}
+.footer-bottom {
+background-color:#2e2e2e;
+height:130px;
+}
+.footer-bottom p {
+color:#7D7D7D;
+margin-top:50px;
+}
+.footer-bottom-left {
+float:left;
+width:50%;
+}
+.footer-bottom-right {
+float:right;
+}
+.footer-bottom-right ul li {
+display:inline;
+line-height:130px;
+}
+.footer-bottom-right ul li a {
+text-decoration:none;
+color:#7D7D7D;
+}
+.footer-bottom-right ul li a:hover {
 color:#57c5a0;
 }
