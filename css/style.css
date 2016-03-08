@@ -63,7 +63,7 @@ color:#414141;
 }
 .slider {
 width:100%;
-height:620px;
+height:560px;
 background-color:#f1eeea;
 clear:both;
 }
@@ -245,7 +245,7 @@ color:white;
 background-color:rgba(0, 0, 0, 0.7); 
 }
 .content {
-height:1000px;
+padding-bottom:30px;
 background-color:#ebe7df;
 width:100%;
 }
@@ -271,6 +271,7 @@ display:block;
 width:100%;
 clear:both;
 padding-top:40px;
+height:320px;
 }
 .content-products-item {
 display:block;
@@ -333,6 +334,8 @@ background-color:#242424;
 .outofstock {
 background-color:#f27e4b;
 width:60px;
+text-align:center;
+font-weight:bold;
 }
 .content-item-icon {
 position:absolute;
@@ -346,5 +349,94 @@ height:1px;
 padding: 0;
 border:0;
 background-color:#cccccc;
-height:1px;
+clear:both;
+}
+.widgets {
+height:200px;
+width:100%;
+margin-top:30px;
+}
+.widgets-item {
+width:23%;
+height:200px;
+background-color:#dfdbd4;
+display:block;
+float:left;
+padding:30px 25px 30px 25px;
+box-sizing:border-box;
+margin-right:2%;
+margin-left:2%;
+}
+.widgets-item.first {
+margin-left:0;
+}
+.widgets-item.last {
+width:46%;
+margin-right:0%;
+}
+.widgets-item  h3 {
+margin-bottom:20px;	
+}
+.widgets-item  p {
+font-size:0.9em;	
+}
+.widgets-item-margin {
+margin-top:5px;
+}
+.widgets-item-btn {
+display:block;
+float:left;
+width:10%;
+text-align:center;
+background-color:#57c5a0;
+padding:5px;
+box-sizing:border-box;
+color:white;
+font-weight:bold;
+}
+.widgets-item-rightofbtn {
+display:block;
+float:left;
+width:90%;
+padding-left:10px;
+box-sizing:border-box;
+margin-bottom: 20px;
+}
+footer {
+background-color:#242424;
+width:100%;
+height:500px;
+padding-top:60px;
+}
+.footer-widgets {
+width:100%;
+}
+.footer-widgets-item {
+display:block;
+float:left;
+width:30.666666%;
+}
+.footer-widgets .footer-widgets-item {
+margin-right:2%;
+margin-left:2%;
+}
+.footer-widgets .footer-widgets-item.first {
+margin-left:0;
+}
+.footer-widgets .footer-widgets-item.last {
+margin-right:0%;
+margin-left:2%;
+}
+.footer-widgets-item h4 {
+color:#7d7d7d;
+margin-bottom:30px;
+}
+.footer-widgets-item p {
+color:#a4a4a4;
+}
+.footer-widgets-item ul li {
+color:#a4a4a4;
+}
+.footer-widgets-item ul li .footer-twitterusername {
+color:#57c5a0;
 }
